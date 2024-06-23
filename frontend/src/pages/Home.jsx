@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Home() {
-  return <div className="p-12">Home</div>;
+  return <div className="text-8xl text-center">ECORENEW: CREATING SUSTAINIBILITY AND ART</div>;
 }
