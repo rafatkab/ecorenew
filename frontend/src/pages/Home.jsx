@@ -3,6 +3,9 @@ import two from "../images/Home/two.jpg";
 import three from "../images/Home/three.jpg";
 import accepts from "../images/Home/accepts.jpg";
 import tools from "../images/Home/tools.jpg";
+import york from "../images/Home/york.jpg";
+import conservation from "../images/Home/conservation.jpg";
+import newmarket from "../images/Home/newmarket.jpg";
 
 export default function Home() {
   return (
@@ -71,6 +74,16 @@ export default function Home() {
             Bruce's Mill Conservation Park 3291 Stouffville Road, Stouffville,
             ON L4A 7X5
           </div>
+        </div>
+      </div>
+      <div className="p-8">
+        <div className="font-body p-8 text-3xl font-medium text-center">
+          OUR PARTNERS
+        </div>
+        <div className="flex justify-center [&>*]:m-4">
+          <img className="h-24" src={york}></img>
+          <img className="h-24" src={conservation}></img>
+          <img className="h-24" src={newmarket}></img>
         </div>
       </div>
     </div>
