@@ -15,11 +15,15 @@ export default function App() {
       <NavBar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home />}/>
-          <Route exact path="/ourteam" element={<OurTeam />}/>
-          <Route exact path="/ourmission" element={<OurMission />}/>
-          <Route exact path="/faq" element={<FAQ />}/>
-          <Route exact path="/coursedescription" element={<CourseDescription />}/>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/ourteam" element={<OurTeam />} />
+          <Route exact path="/ourmission" element={<OurMission />} />
+          <Route exact path="/faq" element={<FAQ />} />
+          <Route
+            exact
+            path="/coursedescription"
+            element={<CourseDescription />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
