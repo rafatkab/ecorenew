@@ -6,6 +6,7 @@ import tools from "../images/Home/tools.jpg";
 import york from "../images/Home/york.jpg";
 import conservation from "../images/Home/conservation.jpg";
 import newmarket from "../images/Home/newmarket.jpg";
+import ecorenew from "../images/ecorenew.jpg";
 import NavBar from "../components/NavBar";
 
 export default function Home() {
@@ -14,8 +15,9 @@ export default function Home() {
       <div className="w-full z-[-2] fixed bg-[url('/src/images/Home/house.jpg')] h-screen"></div>
       <div className="w-full h-screen z-[-1] fixed bg-black opacity-30"></div>
       <div className="flex justify-center items-center flex-col h-screen ">
-        <div className="mt-10 p-6 text-8xl text-white font-body w-3/5 text-center border-b-[15px] border-[#A0C980]">
-          ECORENEW: CREATING SUSTAINABILITY AND ART
+        <img src={ecorenew} />
+        <div className="mt-2 p-6 text-8xl text-white font-body w-3/5 text-center border-b-[15px] border-[#A0C980]">
+          CREATING SUSTAINABILITY AND ART
         </div>
         <button class=" mt-10 text-2xl bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
           Register Now
