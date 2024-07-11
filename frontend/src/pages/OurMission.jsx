@@ -2,10 +2,7 @@ import React from "react";
 
 export default function OurMission() {
   return <div>
-    <div className="font-body">
-      <div class="text-4xl text-center">OUR MISSION</div>
-    </div>
-
+    <div class="font-body text-4xl text-center">OUR MISSION</div>
     <div class="flex flex-col text-3xl font-medium pt-10 px-20">Our Mission Statement</div>
     <div class="text-lg pt-5 px-20">Our mission is to foster a deep connection between the youth of Stouffville and the natural environment. We aim to inspire and engage young people by providing meaningful opportunities for them to explore, appreciate, and actively participate in preserving the natural beauty of their community. Our two-week course unites York University students, experienced faculty, and community partners—Bruce’s Mill and TRCA—for collaborative, hands-on learning focused on renewing and revitalizing the outdoors. </div>
     <div class="flex flex-col text-3xl font-medium pt-10 px-20">What We Aim to Offer the Youth</div>
