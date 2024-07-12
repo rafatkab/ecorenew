@@ -2,7 +2,7 @@ import React from "react";
 import classrooms from "../images/Course Description/8e3a5b6fc5d8f5d9fa4d3bd3f33f1a45.jpg"
 export default function CourseDescription() {
   return <div>
-    <div class="font-body text-4xl text-center flex flex-col">Course Overview</div>
+    <div class="font-body text-4xl text-center flex flex-col">COURSE DESCRIPTION</div>
 
     <img class="px-20 pt-14 flex" src={classrooms} /> {/*Image is too large for some reason*/}
 
