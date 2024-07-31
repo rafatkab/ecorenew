@@ -8,6 +8,7 @@ import FAQ from "./pages/FAQ";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import React from "react";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
