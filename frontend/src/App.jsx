@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import OurTeam from "./pages/OurTeam";
 import OurMission from "./pages/OurMission";
 import CourseDescription from "./pages/CourseDescription";
+import CourseOutline from "./pages/CourseOutline"
 import FAQ from "./pages/FAQ";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -25,6 +26,7 @@ export default function App() {
             path="/coursedescription"
             element={<CourseDescription />}
           />
+          <Route exact path="/coursedescription/courseoutline" element={< CourseOutline/>} />
         </Routes>
       </BrowserRouter>
       <Footer />

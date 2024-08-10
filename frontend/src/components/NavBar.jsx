@@ -32,7 +32,7 @@ export default function NavBar() {
               class="rounded-md [&>*]:rounded-md [&>*]:p-2 [&>*]:bg-lime-500 absolute hidden peer-hover:flex hover:flex
          flex-col "
             >
-              <a class="hover:bg-gray-200" href="/courseoutline">
+              <a class="hover:bg-gray-200" href="/coursedescription/courseoutline">
                 Course Outline
               </a>
               <a class="hover:bg-gray-200" href="imagearchive">
